@@ -1,10 +1,10 @@
 # [JSL02] Submission: Debug the DOM Explained 
 
 What was achieved : 
-1 Created Variables  That would be used in the validation process.
-2:Used For loops in  Javascript to check if any duplicates could be found.
-3: Created a function that searches for duplicates and blocks their insertion.
-4: Added an Alert to Highlight to the user an error has occurred. 
+1. Created Variables  That would be used in the validation process.
+2. Used For loops in  Javascript to check if any duplicates could be found.
+3. Created a function that searches for duplicates and blocks their insertion.
+4. Added an Alert to Highlight to the user an error has occurred. 
 
 
 # Below is the Original Brief of the Activity  
