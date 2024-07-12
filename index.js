@@ -26,6 +26,18 @@ const addNewGoal = () => {
   const goalInput = document.querySelector("#goalInput").value;
   const goalList = document.querySelector("#goalList");
   const addedgoals = goalList.getElementsByTagName("li"); // we will be collecting the data from list
+  // Additionally ive learned that ++ = is shortform for adding 1
+  //We will use a for loop for this section to see if we can find any duplicates
+  for (let duplicatechecker = 0; goalList.length; duplicatechecker++) {
+    if (addedgoals[duplicatechecker].textContent === goalInput) {
+      alert("Duplicate Goal, Cant Add");
+      return;
+    }
+
+    const newGoal = document.createElement("li");
+    newGoal.textContent = goalInput;
+    goalList.appendChild(newGoal);
+  }
 
   // ⚠️ Hint 1: Check for duplicates
   // Use 'goalList' to get all existing goals and check if 'goalInput' matches any of them.
