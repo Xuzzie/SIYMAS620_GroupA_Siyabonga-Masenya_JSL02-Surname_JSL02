@@ -28,9 +28,9 @@ const addNewGoal = () => {
   const addedgoals = goalList.getElementsByTagName("li"); // we will be collecting the data from list
   // Additionally ive learned that ++ = is shortform for adding 1
   //We will use a for loop for this section to see if we can find any duplicates
-  for (let duplicatechecker = 0; goalList.length; duplicatechecker++) {
-    if (addedgoals[duplicatechecker].textContent === goalInput) {
-      alert("Duplicate Goal, Cant Add");
+  for (let i = 0; i < addedgoals.length; i++) {
+    if (addedgoals[i].textContent === goalInput) {
+      alert("Duplicate Goal, Cant Add!!");
       return;
     }
 
