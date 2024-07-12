@@ -39,6 +39,7 @@ const addNewGoal = () => {
     goalList.appendChild(newGoal);
   }
 
+  document.querySelector("#submitGoal").addEventListener("click", addNewGoal);
   // ⚠️ Hint 1: Check for duplicates
   // Use 'goalList' to get all existing goals and check if 'goalInput' matches any of them.
 
