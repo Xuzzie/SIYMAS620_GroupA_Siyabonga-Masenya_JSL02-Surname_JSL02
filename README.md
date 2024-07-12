@@ -1,10 +1,13 @@
-# [JSL02] Submission: Debug the DOM
+# [JSL02] Submission: Debug the DOM Explained 
 
-You will: 
-1. Use the Starter Code Repo, 
-2. Code your solution,
-3. Commit changes to your repo
-3. Submit GitHub Repo Link to LMS [JSL02] Submission Project Tab
+What was achieved : 
+1 Created Variables  That would be used in the validation process.
+2:Used For loops in  Javascript to check if any duplicates could be found.
+3: Created a function that searches for duplicates and blocks their insertion.
+4: Added an Alert to Highlight to the user an error has occurred. 
+
+
+# Below is the Original Brief of the Activity  
 
 # Debugging Duplicate Goals
 
